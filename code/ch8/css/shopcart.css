@@ -1,0 +1,254 @@
+/* 购物车 */
+
+
+/* 大盒子 */
+
+.shopcart {
+    height: 630px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* 标题 */
+
+.shopcart h3 {
+    font-size: 24px;
+    color: #ff6700;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+
+/* 表头 */
+
+.shopcart table {
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+}
+
+
+/* 表头的列表 */
+
+.shopcart table thead tr th {
+    height: 60px;
+    background-color: #f1f1f1;
+    font-size: 18px;
+    color: gray;
+}
+
+
+/* 表的中间内容 */
+
+.shopcart table tbody tr td {
+    font-size: 14px;
+    color: gray;
+}
+
+.shopcart table tbody tr td input {
+    text-align: center;
+}
+
+
+/*操作部分 */
+
+.shopcart table tbody tr td:last-child {
+    width: 150px;
+    color: black;
+}
+
+.shopcart table tbody tr td p {
+    padding-left: 56px;
+    padding-top: 10px;
+}
+
+.shopcart table tbody tr .del a:link,
+:visited {
+    color: black;
+}
+
+.shopcart table tbody tr .del a:hover {
+    color: red;
+}
+
+
+/* 小计样式 */
+
+.shopcart table tbody tr td:nth-child(5) {
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 102px;
+    margin-left: 25px;
+}
+
+
+/* 表的中间内容数量的按钮样式 */
+
+.shopcart table tbody button {
+    width: 24px;
+    height: 22px;
+    border: 2px solid gray;
+}
+
+.shopcart table tbody input {
+    width: 56px;
+    border: 2px solid gray;
+}
+
+
+/* 表底 */
+
+.shopcart .totalPrice {
+    height: 60px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    line-height: 60px;
+    font-size: 16px;
+    color: gray;
+}
+
+.shopcart .totalPrice .totalPrice-left {
+    width: 240px;
+    height: 60px;
+    margin-left: 54px;
+}
+
+.shopcart .totalPrice .totalPrice-left span {
+    margin-left: 50px;
+}
+
+.shopcart .totalPrice .totalPrice-right {
+    width: 480px;
+    height: 60px;
+    margin-left: 425px;
+}
+
+.shopcart .totalPrice .totalPrice-right span {
+    color: #ff6700;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shopcart .totalPrice .totalPrice-right .total {
+    margin-left: 46px;
+    color: black;
+    font-size: 22px;
+}
+
+.shopcart .totalPrice .totalPrice-right .totalone {
+    color: #ff6700;
+}
+
+.shopcart .totalPrice .totalPrice-right .total button {
+    position: absolute;
+    background-color: #ff6700;
+    color: #f1f1f1;
+    border: none;
+    width: 120px;
+    height: 60px;
+    margin-left: 77px;
+}
+
+
+/* 猜你喜欢部分 */
+
+
+/* 大盒子 */
+
+.booksRebate {
+    height: 492px;
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+
+
+/* 上部分大盒子 */
+
+.booksRebate .topbooksRebate {
+    height: 312px;
+}
+
+
+/* 标题 */
+
+.booksRebate .topbooksRebate .title {
+    height: 48px;
+    background-color: white;
+    border-bottom: 6px solid #ff6700;
+}
+
+.booksRebate .topbooksRebate .title h2 {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 13px;
+}
+
+.booksRebate .topbooksRebate .title h2.active {
+    text-align: center;
+    height: 36px;
+    width: 124px;
+    background-color: #ff6700;
+}
+
+
+/* 上部分大盒子中间内容 */
+
+.booksRebate .topbooksRebate .content {
+    height: 258px;
+}
+
+.booksRebate .topbooksRebate .content ul li {
+    height: 258px;
+    width: 210px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.booksRebate .topbooksRebate .content ul li:hover {
+    background-color: #f2f2f2;
+}
+
+.booksRebate .topbooksRebate .content img:first-child {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.booksRebate .topbooksRebate .content ul li p:nth-of-type(1) {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.booksRebate .topbooksRebate .content ul li p:nth-of-type(2) {
+    font-size: 14px;
+    margin-left: 10px;
+    color: red;
+    font-weight: 600;
+    background: url('../img/XX.png') no-repeat 40px 1px;
+}
+
+.booksRebate .topbooksRebate .content ul li span:nth-of-type(1) {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: red;
+}
+
+.booksRebate .topbooksRebate .content ul li span:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 25px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+
+/* 下部分大盒子 */
+
+.booksRebate .bottombooksRebate {
+    height: 91px;
+    margin-top: 89px;
+}
