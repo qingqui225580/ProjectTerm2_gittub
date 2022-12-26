@@ -1,0 +1,31 @@
+.register {
+    height: 1000px;
+    width: 500px;
+    margin: 35px auto;
+}
+
+.register h1 {
+    font-size: 22px;
+    background: linear-gradient(to bottom left, red, blue, yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.register p {
+    margin-top: 15px;
+}
+
+.register p input {
+    border-radius: 8px;
+    width: 200px;
+    height: 25px;
+    outline: none;
+}
+
+.error {
+    color: chocolate;
+}
+
+.error:first-child {
+    border: 3px solid purple;
+}

@@ -1,0 +1,39 @@
+.model {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    /* 扩展(居中) */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.model .content {
+    width: 400px;
+    height: 250px;
+    background-color: honeydew;
+    font-size: 25px;
+    font-weight: bold;
+    /* position(定位)fixed(固定定位)居中位置数据 */
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto; */
+    /* position(定位)absolute(绝对定位)居中位置数据 */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -200px; */
+    /* transform居中方式 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
