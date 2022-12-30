@@ -1,0 +1,16 @@
+$(function(){
+    //打开模态框
+    $('#btn').click(function(){
+        $('.model').fadeIn();
+    })
+    //关闭模态框
+    $('#close').click(function(){
+        $('.model').fadeOut();
+    })
+    $('#close1').click(function(){
+        $('.model').fadeOut();
+    })
+    $('#close2').click(function(){
+        $('.model').fadeOut();
+    })
+})

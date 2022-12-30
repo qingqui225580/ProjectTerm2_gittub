@@ -1,0 +1,43 @@
+.register{
+    width: 500px;
+    height: 1000px;
+    margin: 30 auto;
+}
+.register h1{
+    font-size: 24px;
+}
+.register div{
+    width: 437px;
+    height:42px;
+    /* border: 1px solid #ccc; */
+    margin-bottom: 50px;
+    margin-top: 20px;
+    position: relative;
+}
+.register div span{
+    font-size: 14px;
+    font-weight:bold;
+}
+.register .zc input{
+    width: 200px;
+    height: 42px;
+    background-color:#ff6700;
+    margin-left:104px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.register div input{
+    width: 437px;
+    height:42px;
+    outline: none;
+    margin-right: 200px;
+    border: 1px solid #ccc;
+}
+.error{
+    color: red;
+    margin-right: 10px;
+}
+.error:first-child{
+    border: 1px solid red;
+    color: #333;
+}
